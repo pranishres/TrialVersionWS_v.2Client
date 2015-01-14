@@ -1,0 +1,39 @@
+1. -------DONE---------- save the expiry date in the client computer in an external file. the file should be hidden and hashed so that no will read the format  (M)
+
+#Process :- i. create a txt file in client side
+                  ii. convert the contents to a non readable format
+
+>>Encryption and decryption process is left
+ 
+ 
+2. -------DONE------ take internet/system date and time, decrypt the serial key for taking the date of registraiton and compare it.     (M)
+>>Encryption and decryption process is left
+
+
+3. email the serial key to the client instead of pasting it in the form  (S)
+
+B:\git repo\TrialVersionWS_v.1Server
+4. give a small popup if the key is going to expire  (M)
+
+
+5. take random numbers from the hashed values. Code line :-
+enc.charAt(13)+enc.charAt(21)+enc.charAt(17)+enc.charAt(8)+"-"+
+                enc2.charAt(3)+enc2.charAt(8)+enc2.charAt(15)+enc2.charAt(11)+enc2.charAt(18)+"-"+
+                enc3.charAt(22)+enc3.charAt(32)+enc3.charAt(17)+enc3.charAt(73)+"-"+
+                 enc4.charAt(36)+enc4.charAt(54)+enc4.charAt(77)+enc4.charAt(12)+enc4.charAt(63)
+take random numbers in the brackets
+
+
+6. -------DONE------- Keep on checking the trial version and expiry date of the of the software while the program is running   (M)
+
+
+7. Authenticate client side   (M)
+
+8. validation of the client form (M)
+
+9. what to do with payment gate way (S)
+
+10. save the header and use splitter to get the value (S)
+
+
+

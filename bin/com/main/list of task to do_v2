@@ -1,0 +1,4 @@
+1. Client pays for the premium account
+2. Server generates unique serial key 
+3. Server records the serial key and a unique value of client in the database (notepad for now)
+4. 

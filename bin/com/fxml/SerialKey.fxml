@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="141.0" prefWidth="367.0" style="-fx-background-color: #CDCDCD;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.main.SerialKeyController">
+<children><Rectangle fill="#1b1b1b" height="30.0" stroke="BLACK" strokeType="INSIDE" width="367.0" /><Label layoutX="22.0" layoutY="56.0" prefHeight="20.0" prefWidth="125.0" text="Your Serial Key :-">
+<font>
+<Font size="14.0" />
+</font></Label><TextField layoutX="158.0" layoutY="54.0" prefHeight="25.0" prefWidth="199.0" /><Button layoutX="102.0" layoutY="101.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="67.0" style="-fx-background-radius: 0; -fx-border-radius: 0;" text="O.K" /><Button layoutX="199.0" layoutY="101.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="67.0" style="-fx-border-radius: 0; -fxbackground-radius: 0;" text="Cancel" />
+</children></AnchorPane>

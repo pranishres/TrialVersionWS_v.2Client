@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="683.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.main.PaymentFormController">
+<children><Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1b1b1b" height="50.0" stroke="#2c2c2c" strokeType="INSIDE" width="500.0" /><Pane layoutY="50.0" prefHeight="634.0" prefWidth="500.0" style="-fx-background-color: #CDCDCD;">
+<children><Label layoutX="62.0" layoutY="71.0" prefHeight="20.0" prefWidth="101.0" text="First Name :- ">
+<font>
+<Font size="14.0" />
+</font></Label><Label layoutX="62.0" layoutY="106.0" prefHeight="20.0" prefWidth="101.0" text="Middle Name :- ">
+<font>
+<Font size="14.0" />
+</font>
+</Label><Label layoutX="62.0" layoutY="144.0" prefHeight="20.0" prefWidth="101.0" text="Last Name :- ">
+<font>
+<Font size="14.0" />
+</font>
+</Label><Label layoutX="62.0" layoutY="181.0" prefHeight="20.0" prefWidth="101.0" text="Email :- ">
+<font>
+<Font size="14.0" />
+</font>
+</Label><Label layoutX="62.0" layoutY="215.0" prefHeight="20.0" prefWidth="101.0" text="Address :-">
+<font>
+<Font size="14.0" />
+</font>
+</Label><Label layoutX="62.0" layoutY="249.0" prefHeight="20.0" prefWidth="101.0" text="City :-">
+<font>
+<Font size="14.0" />
+</font>
+</Label><Label layoutX="62.0" layoutY="283.0" prefHeight="20.0" prefWidth="101.0" text="Country :-">
+<font>
+<Font size="14.0" />
+</font>
+</Label><Label layoutX="62.0" layoutY="425.0" prefHeight="20.0" prefWidth="133.0" text="Payment Method :-">
+<font>
+<Font size="14.0" />
+</font>
+</Label><Label layoutX="62.0" layoutY="460.0" prefHeight="20.0" prefWidth="133.0" text="Card Number :-">
+<font>
+<Font size="14.0" />
+</font>
+</Label><Label layoutX="62.0" layoutY="493.0" prefHeight="20.0" prefWidth="133.0" text="Expiry Date :-">
+<font>
+<Font size="14.0" />
+</font>
+</Label><Line endX="70.0" layoutX="115.0" layoutY="39.0" startX="-100.0" /><Text layoutX="192.931640625" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Personal Details">
+<font>
+<Font size="16.0" />
+</font></Text><Line endX="70.0" layoutX="414.0" layoutY="39.0" startX="-100.0" /><Line endX="70.0" layoutX="414.0" layoutY="335.0" startX="-100.0" /><Text layoutX="192.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Payment Details">
+<font>
+<Font size="16.0" />
+</font>
+</Text><Line endX="70.0" layoutX="115.0" layoutY="335.0" startX="-100.0" />
+<TextField fx:id="txtFirstName" layoutX="213.0" layoutY="71.0" prefHeight="25.0" prefWidth="219.0" />
+<TextField fx:id="txtMiddleName" layoutX="213.0" layoutY="106.0" prefHeight="25.0" prefWidth="219.0" />
+<TextField fx:id="txtLastName" layoutX="213.0" layoutY="144.0" prefHeight="25.0" prefWidth="219.0" />
+<TextField fx:id="txtEmail" layoutX="213.0" layoutY="181.0" prefHeight="25.0" prefWidth="219.0" />
+<TextField fx:id="txtAddress" layoutX="213.0" layoutY="215.0" prefHeight="25.0" prefWidth="219.0" />
+<TextField fx:id="txtCity" layoutX="213.0" layoutY="249.0" prefHeight="25.0" prefWidth="219.0" />
+<ComboBox fx:id="comboCountry" layoutX="213.0" layoutY="283.0" prefHeight="25.0" prefWidth="219.0" />
+<TextField fx:id="txtPaymentMethod" layoutX="213.0" layoutY="425.0" prefHeight="25.0" prefWidth="219.0" />
+<TextField fx:id="txtCardNumber" layoutX="213.0" layoutY="460.0" prefHeight="25.0" prefWidth="219.0" />
+<TextField fx:id="txtexpiryDate" layoutX="213.0" layoutY="493.0" prefHeight="25.0" prefWidth="219.0" />
+<Button layoutX="62.0" layoutY="560.0" mnemonicParsing="false" onAction="#submit" prefHeight="38.0" prefWidth="114.0" style="-fx-background-radius: 0; -fx-border-radius: 0;" text="Submit" />
+<Button layoutX="192.0" layoutY="560.0" mnemonicParsing="false" onAction="#reset" prefHeight="38.0" prefWidth="114.0" style="-fx-background-radius: 0; -fx-border-radius: 0;" text="Reset" />
+<Button layoutX="318.0" layoutY="560.0" mnemonicParsing="false" onAction="#cancel" prefHeight="38.0" prefWidth="114.0" style="-fx-background-radius: 0; -fx-border-radius: 0;" text="Cancel" /><Label layoutX="62.0" layoutY="362.0" prefHeight="20.0" prefWidth="133.0" text="Purchase Type :-">
+<font>
+<Font size="14.0" />
+</font>
+</Label><ComboBox fx:id="comboDuration" layoutX="213.0" layoutY="362.0" prefHeight="25.0" prefWidth="219.0" />
+<Text fx:id="comboDurationErr" fill="RED" layoutX="213.0" layoutY="359.0" strokeType="OUTSIDE" strokeWidth="0.0" text="* Please select a subscription duration" visible="false" wrappingWidth="219.0" />
+<TextField fx:id="txtAmount" layoutX="213.0" layoutY="394.0" pickOnBounds="false" prefHeight="25.0" prefWidth="219.0" />
+<Label layoutX="62.0" layoutY="394.0" prefHeight="20.0" prefWidth="133.0" text="Amount :-">
+<font>
+<Font size="14.0" />
+</font>
+</Label>
+</children></Pane>
+</children></AnchorPane>

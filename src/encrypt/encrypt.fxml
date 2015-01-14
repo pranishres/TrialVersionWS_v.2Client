@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="258.0" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="encrypt.encryptController">
+<children><TextArea fx:id="plaintxt" layoutX="14.0" layoutY="57.0" prefHeight="156.0" prefWidth="294.0" wrapText="true" /><Button fx:id="enc" layoutX="14.0" layoutY="222.0" mnemonicParsing="false" onAction="#onpress" prefHeight="25.0" prefWidth="145.0" text="Encrypt" /><TextField fx:id="txtfld" layoutX="105.0" layoutY="22.0" prefHeight="25.0" prefWidth="205.0" text="w7SdUgaB9vTiYXl" /><Text layoutX="14.431640625" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Encryption Key:" /><Button fx:id="dec" layoutX="165.0" layoutY="222.0" mnemonicParsing="false" onAction="#onpress" prefHeight="25.0" prefWidth="145.0" text="Decrypt" />
+</children>
+</AnchorPane>
